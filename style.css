@@ -1,0 +1,84 @@
+body{
+  background-image: url(berserk.png);
+}
+.container{
+  width: 100;
+  margin: 10px;
+  text-align: center;  
+  max-width: max-content;
+  align-items: center;
+}
+.icon{
+  background-color: #a52f2fec;
+}
+.logo{
+  width: 110px;
+
+  margin: auto;
+  border-radius: 15px;
+  background-color: #a52f2fec;
+}
+.borderless-button{
+  border-color: #050404;
+  background-color: #a52f2fec;
+  padding: 15px 30px;
+  shape-rendering: auto;
+  font-weight: bold;
+  color:#fff;
+  border-radius: 18px;
+  border-width: 5px;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+.current-borderless-button{
+  border-color: #000000ec;
+  background-color: #f0f0f0;
+  padding: 15px 30px;
+  shape-rendering: auto;
+  border-width: 10px;
+  font-weight: bold;
+  color:#a52f2fec;
+  border-radius: 18px;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+.parentcontainer{
+  display: flex;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  align-self: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 100px;
+}
+.con{ 
+padding: 0px;
+width: auto; 
+font-size: 20px;
+border: 2px solid #040606; 
+border-radius: 5px;
+display: flex;
+font-weight: bolder;
+justify-content: center;
+background-color: #ef8888;
+text-align: center;
+align-items: center;
+}
+.dim-con{ 
+  padding: 0px;
+  width: auto; 
+  font-size: 20px;
+  border: 2px solid #040606; 
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #ef8888;
+  text-align: center;
+  align-items: center;
+  }
